@@ -1,3 +1,5 @@
+//get random Computer choice
+
 playerChoices = ["rock", "paper", "scissors"]
 
 function getRandomChoice(choices){
@@ -8,3 +10,9 @@ function getRandomChoice(choices){
 }
 
 console.log(getRandomChoice(playerChoices));
+
+//get Player choice
+
+let userInput = prompt("What do you pick?");
+playerChoice = userInput.toLowerCase();
+console.log(playerChoice);
